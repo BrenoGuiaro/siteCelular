@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: #272727;
+}
+
+.topo{
+    display: flex;
+    background:#272727;
+    width: 100%;
+    height: 65px;
+}
+
+#name{
+    font-size: 20px ;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    padding:20px 0px 0px 100px;
+    color: white
+}
+
+#logo{
+    margin: 5px;
+}
+
+#lista-none{
+    list-style: none;
+    margin: 8px 0px 0px 0px;
+    padding: 0;
+}
+
+#b1{
+     background: #6b6b6b;
+    border: none;
+    width: 65px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 5px 5px 5px 20px;
+}
+
+#b2{
+     background: #6b6b6b;
+    border: none;
+    width: 65px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+#b3{
+     background: #6b6b6b;
+    border: none;
+    width: 65px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#b4{
+     background: #6b6b6b;
+    border: none;
+    width: 65px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#b5{
+    background: #6b6b6b;
+    border: none;
+    width: 65px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#b1:hover{
+    opacity: 0.5;
+}
+
+#b2:hover{
+    opacity: 0.5;
+}
+
+#b3:hover{
+    opacity: 0.5;
+}
+
+#b4:hover{
+    opacity: 0.5;
+}
+
+#b5:hover{
+    opacity: 0.5;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 250px 50px  300px;
+}
+
+#tite1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 25px 0px 0px 0px;
+    font-weight: 550;
+    grid-column: 1/3;
+}
+
+#ney{
+    border-radius: 10px;
+    margin: 20px 0px 0px 40px;
+    grid-column: 1/3;
+    grid-row: 2;
+}
+
+#tite2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 25px 0px 0px 0px;
+    font-weight: 550;
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+#kevin{
+    border-radius: 10px;
+    margin: 20px 0px 0px 40px;
+    grid-column: 1/3;
+    grid-row: 4;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/*TENIS*/
+#titeT{
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    grid-column: 1/3;
+    font-size: 20px;
+    color: white;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 205px 50px  190px 50px;
+}
+
+#ous{
+    border-radius: 10px;
+    grid-column: 1/2;
+    grid-row: 2;
+    margin: 40px 0px 0px 30px;
+}
+
+#ousN{
+    grid-column: 1;
+    grid-row: 3;
+    margin: 5px 0px 0px 50px;
+    color: white;
+    font-size: 15px;
+}
+
+#force54{
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 40px 0px 0px 30px;
+}
+
+#forceN{
+    grid-column: 2;
+    grid-row: 3;
+    margin: 5px 0px 0px 50px;
+    color: white;
+    font-size: 15px;
+}
+
+
+#excee{
+    border-radius: 10px;
+    grid-column: 1;
+    grid-row: 4;
+    margin: 30px 0px 0px 30px;
+}
+
+#exceeN{
+    grid-column: 1;
+    grid-row: 5;
+    margin: 5px 0px 0px 55px;
+    color: white;
+    font-size: 15px;
+}
+
+#zoom4{
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 4;
+    margin: 40px 0px 0px 30px;
+}
+
+#zoomN{
+    grid-column: 2;
+    grid-row: 5;
+    margin: 5px 0px 0px 55px;
+    color: white;
+    font-size: 15px;
+}
