@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #272727;
+    background:rgb(255, 255, 255);
 }
 
 .topo{
@@ -36,49 +36,55 @@ body{
 }
 
 #b1{
-     background: #6b6b6b;
+    background: linear-gradient(90deg, #0089a8 0%, #3a47d5 100%);
     border: none;
-    width: 65px;
-    height: 25px;
+    width: 350px;
+    height: 100px;
     border-radius: 5px;
-    margin: 5px 5px 5px 20px;
+    margin: 0px 0px 0px 25px;
+    grid-column: 1/2;
+    grid-row: 1;
+    font-size: 20px;
 }
 
 #b2{
-     background: #6b6b6b;
+    background: linear-gradient(90deg, #0089a8 0%, #3a47d5 100%);
     border: none;
-    width: 65px;
-    height: 25px;
+    width: 350px;
+    height: 100px;
     border-radius: 5px;
-    margin: 5px;
+    margin: 0px 15px 15px 25px;
+    grid-column: 1/2;
+    grid-row: 2;
+    font-size: 20px;
 }
 
 
 #b3{
-     background: #6b6b6b;
+    background: linear-gradient(90deg, #0089a8 0%, #3a47d5 100%);
     border: none;
-    width: 65px;
-    height: 25px;
+    width: 350px;
+    height: 100px;
     border-radius: 5px;
-    margin: 5px;
+    margin: 0px 0px 0px 25px;
+    grid-column: 1/2;
+    grid-row: 3;
+    font-size: 20px;
 }
 
 #b4{
-     background: #6b6b6b;
+    background: linear-gradient(90deg, #0089a8 0%, #3a47d5 100%);
     border: none;
-    width: 65px;
-    height: 25px;
+    width: 350px;
+    height: 100px;
     border-radius: 5px;
-    margin: 5px;
+    margin: 0px 15px 15px 25px;
+    grid-column: 1/2;
+    grid-row: 4;
+    font-size: 20px;
 }
 
-#b5{
-    background: #6b6b6b;
-    border: none;
-    width: 65px;
-    height: 25px;
-    border-radius: 5px;
-}
+
 
 #b1:hover{
     opacity: 0.5;
@@ -104,7 +110,8 @@ body{
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 250px 50px  300px;
+    grid-template-rows:110px 110px 110px 100px;
+    margin: 50px 0px 0px 0px;
 }
 
 #tite1{
