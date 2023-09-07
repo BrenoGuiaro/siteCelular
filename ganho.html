@@ -16,15 +16,15 @@
     </header>
 
 
-
-    <section class="grid">
-
-        <button id="b1">TREINOS</button>
-        <button id="b2" onclick=" window.location = 'ganho.html'">GANHO</button>
-        <button id="b3">ALIMENTAÇAO</button>
-        <button id="b4">TAREFAS</button>
-
+    
+    <section class="gridG">
+        <p id="atual"></p>
+        <p id="pergunta">Quanto voce esta hoje?</p>
+        <input id="hj" type="text" placeholder="Quanto voce esta hoje?" oninput="this.value = this.value.replace(/[^0-9.]/g, ',').replace(/(\..*?)\..*/g, '$1');">
+        <button id="atualiza" onclick="atualizar()" >Atualizar</button>
+        
     </section>
+
 
     <script src="index.js"></script>
 </body>
